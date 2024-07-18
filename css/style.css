@@ -1757,7 +1757,7 @@ blockquote.style2:after {
 }
 
 .header.style3 .main-menu > li {
-    padding: 0 16px;
+    padding: 0 12px;
 }
 
 .header.style3 .main-menu > li:first-child {
@@ -9978,7 +9978,7 @@ li.info-pts span {
 
 .now .active a {
     font-weight: 600;
-    color: #000000 !important;
+    color: #464d69 !important;
 }
 
 .product-thumb {
