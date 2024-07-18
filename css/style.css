@@ -3517,7 +3517,7 @@ DS .product-list .product-item {
     color: transparent;
     font-weight: bold;
     display: inline-block;
-    width: 10px;
+    width: 0px;
 
     font-size: 10px;
     vertical-align: middle;
@@ -4139,13 +4139,14 @@ FOOTER
 -----------------------------------*/
 
 .footer {
-    background: #000 url(../images/bg-footer.png) fixed;
-    padding: 50px 0;
+    background: #041e41;
+    padding: 20px 0 0;
     background-position: left bottom;
-    background-size: cover;
     color: #fff;
 }
-
+.contact-info ul li a {
+    color: #fff;
+}
 /*.footer .flex-flow{
     flex-flow: row wrap;
     display: flex;
