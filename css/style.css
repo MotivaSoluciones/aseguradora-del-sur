@@ -114,7 +114,7 @@ h5,
 h6 {
     line-height: 1.3em;
     margin-top: 0;
-    color: #222;
+    color: #2d3559;
 }
 
 h1 {
@@ -243,7 +243,7 @@ input[type="submit"] {
 
 .button:hover,
 input[type="submit"]:hover {
-    background-color: #686868;
+    background-color: #464d69;
     color: #fff;
 }
 
@@ -1338,7 +1338,7 @@ blockquote.style2:after {
 }
 
 .mini-cart .count {
-    background-color: #000000;
+    background-color: #00aeef;
     border-radius: 50%;
     color: #fff;
     font-size: 10px;
@@ -2863,7 +2863,7 @@ PRODUCT
 }
 
 .product-item .price {
-    color: #686868;
+    color: #464d69;
     display: block;
     font-size: 1.6rem;
     /*	margin-bottom: 5px;*/
@@ -3530,7 +3530,7 @@ DS .product-list .product-item {
 }
 
 .widget ul li a {
-    color: #fff;
+    color: #2d3559;
 }
 
 .widget_product_categories li,
@@ -3827,7 +3827,7 @@ DS .product-list .product-item {
 }
 
 .widget_recent_product .price {
-    color: #222;
+    color: #464d69;
 }
 
 .widget_recent_product .price ins {
@@ -4758,7 +4758,7 @@ FOOTER
 .section-title h3 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #222;
+    color: #2d3559;
     margin-bottom: 0;
     position: relative;
     display: inline-block;
@@ -4771,7 +4771,7 @@ FOOTER
     left: 10px;
     margin: 0 -30px -15px 0;
     width: 47px;
-    background-color: #686868;
+    background-color: #00aeef;
 }
 
 .section-title .sub-title {
@@ -4899,7 +4899,7 @@ FOOTER
     content: '';
     width: 50px;
     height: 2px;
-    background-color: #000000;
+    background-color: #00aeef;
     display: block;
     margin: 0 auto;
     margin-top: 5px;
@@ -5562,7 +5562,7 @@ FOOTER
 .tab-product .nav-tab li a {
     font-size: 13px;
     text-transform: uppercase;
-    color: #686868;
+    color: #464d69;
     position: relative;
 }
 
@@ -5570,7 +5570,7 @@ FOOTER
     width: 0px;
     height: 2px;
     display: block;
-    background-color: #000000;
+    background-color: #2d3559;
     margin: 0 auto;
     margin-top: 8px;
     content: '';
@@ -6321,6 +6321,7 @@ FOOTER
     background-color: #fff;
     padding: 35px 30px;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 .product-details-right .breadcrumbs {
@@ -6347,7 +6348,7 @@ FOOTER
 }
 
 .product-details-right .price {
-    color: #222;
+    color: #464d69;
     font-size: 18px;
     text-decoration: none;
     display: inline-block;
@@ -6378,7 +6379,7 @@ FOOTER
     clear: left;
     padding: 16px 33px;
     font-size: 14px;
-    background: #000000;
+   
 }
 
 .product-details-right .quantity {
@@ -6627,17 +6628,19 @@ FOOTER
 }
 
 .tab-details-product .box-tabs li a {
-    color: #222;
+    color: #464d69;
     text-transform: uppercase;
 }
-
+.tab-details-product .box-tabs .active a {
+    font-weight: 600;
+}
 .tab-details-product .box-tabs li a:after {
     content: '';
     height: 2px;
     display: block;
     width: 0%;
     margin-top: 3px;
-    background-color: #000000;
+    background-color: #00aeef;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
 }
@@ -7950,8 +7953,8 @@ BLOG PAGE
     position: fixed;
     z-index: 9999;
     right: 10px;
-    bottom: 60px;
-    background-color: #000000;
+    bottom: 100px;
+    background-color: #00aeef;
     display: none;
     color: #fff;
     text-align: center;
@@ -9641,7 +9644,7 @@ RESPONSIVE
 }
 
 .basket {
-    background: #000000;
+    background: #00aeef;
     border-radius: 100%;
     height: 24px;
     line-height: 24px;
@@ -9749,12 +9752,12 @@ RESPONSIVE
 
 li.info-pts {
     border-radius: 10px;
-    background-color: #e4e4e4;
+    background-color: #2d3559;
     padding: 11px 18px;
     background-repeat: no-repeat;
     background-position: top left;
     margin-right: 20px;
-    color: #666;
+    color: #fff;
 }
 
 .lst-sty {
@@ -9892,10 +9895,10 @@ li.info-pts {
     border-radius: 25px;
     cursor: pointer;
     position: fixed;
-    bottom: 0px;
+    bottom: 5px;
     right: 0px;
-    width: 54px;
-    height: 54px;
+    width: 80px;
+   
 }
 
 /* The popup chat - hidden by default */
@@ -9961,7 +9964,7 @@ li.info-pts {
 }
 
 .box-codigo {
-    background: #000000;
+    background: #00aeef;
     border-radius: 25px;
     padding: 10px 25px;
     color: #fff;
